@@ -1,0 +1,15 @@
+[package]
+name = "noobserver"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ishan Joshi <noobscience@duck.com>"]
+description = "My attempt at writing a server in Rust"
+license = "MIT"
+repository = "https://github.com/newtoallofthis123/noobserver"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lints.clippy]
+unused_io_amount="allow"
